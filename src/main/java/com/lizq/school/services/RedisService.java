@@ -43,6 +43,7 @@ public class RedisService {
                     env.getProperty("redis.dev.pwd"));
 
        }
+
         //如果是其他系统则调用云服务器
        else {
             jedisPool = new JedisPool(config, env.getProperty("redis.prod.host"),
