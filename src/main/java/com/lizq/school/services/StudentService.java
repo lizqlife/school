@@ -48,7 +48,11 @@ public class StudentService {
         if(rowAffected<1){
             throw new RuntimeException("Failed update student");
         }else{
+            //删除该学生的缓存
             redisService.del(stuPrefix+student.getId());
+            //删除学生列表的缓存
+            redisService.del("school:student:All");
+
         }
     }
 
@@ -59,7 +63,11 @@ public class StudentService {
         if(rowAffected<1){
             throw new RuntimeException("Failed insert student");
         }else{
+            //删除该学生的缓存
             redisService.del(stuPrefix+student.getId());
+            //删除学生列表的缓存
+            redisService.del("school:student:All");
+
         }
     }
 
@@ -71,7 +79,11 @@ public class StudentService {
         if(rowAffected<1){
             throw new RuntimeException("Failed delete student");
         }else{
+            //删除该学生的缓存
             redisService.del(stuPrefix+id);
+            //删除学生列表的缓存
+            redisService.del("school:student:All");
+
         }
     }
 

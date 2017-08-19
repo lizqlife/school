@@ -46,9 +46,8 @@ public class RedisService {
 
         //如果是其他系统则调用云服务器
        else {
-            jedisPool = new JedisPool(config, env.getProperty("redis.prod.host"),
-                    Integer.parseInt(env.getProperty("redis.prod.port")), timeout,
-                    env.getProperty("redis.prod.pwd"));
+            jedisPool = new JedisPool(config, env.getProperty("redis.dev.host"),
+                    Integer.parseInt(env.getProperty("redis.prod.port")), timeout);
         }
         objectMapper = new ObjectMapper();
     }

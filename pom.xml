@@ -85,6 +85,15 @@
             <scope>test</scope>
         </dependency>
 
+        <!--SpringTest-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version> 3.2.4.RELEASE  </version>
+            <scope>provided</scope>
+        </dependency>
+
+
         <!--&lt;!&ndash;Apache Commons Lang&ndash;&gt;-->
         <!--<dependency>-->
             <!--<groupId>org.apache.commons</groupId>-->
