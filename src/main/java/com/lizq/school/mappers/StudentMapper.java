@@ -1,6 +1,6 @@
 package com.lizq.school.mappers;
 
-import com.lizq.school.models.Student;
+import com.lizq.school.models.student.Student;
 import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;

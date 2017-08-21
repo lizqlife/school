@@ -1,7 +1,5 @@
 package com.lizq.school.models.student;
 
-import com.lizq.school.models.Student;
-
 import java.util.List;
 
 /**

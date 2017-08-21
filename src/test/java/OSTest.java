@@ -7,7 +7,6 @@ public class OSTest {
 
     @Test
     public void whichOS(){
-       String os= System.getProperty("os.name");
-       System.out.println(os);
+        System.out.println("Branch Test");
     }
 }

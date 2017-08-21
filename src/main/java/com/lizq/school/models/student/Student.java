@@ -1,4 +1,4 @@
-package com.lizq.school.models;
+package com.lizq.school.models.student;
 
 import java.util.Date;
 

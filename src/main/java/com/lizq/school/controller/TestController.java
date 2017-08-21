@@ -13,6 +13,7 @@ public class TestController {
 
     @RequestMapping(value="hello",method = RequestMethod.GET)
     public String hello(){
+        System.out.println("进入到了SpringMVC");
         return "Hello SpringMVC!";
     }
 

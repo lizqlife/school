@@ -1,14 +1,11 @@
 package com.lizq.school.controller;
 
 import com.lizq.school.exceptions.NotFoundException;
-import com.lizq.school.mappers.Message;
-import com.lizq.school.models.Student;
+import com.lizq.school.models.student.Student;
 import com.lizq.school.services.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Date;
 
 /**
  * Created by lizq on 2017/8/14.

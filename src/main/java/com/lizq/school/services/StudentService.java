@@ -1,12 +1,10 @@
 package com.lizq.school.services;
 
 import com.lizq.school.mappers.StudentMapper;
-import com.lizq.school.models.Student;
+import com.lizq.school.models.student.Student;
 import com.lizq.school.models.student.StudentList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 /**
  * Created by lizq on 2017/8/15.
