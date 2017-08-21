@@ -7,6 +7,6 @@ public class OSTest {
 
     @Test
     public void whichOS(){
-        System.out.println("Branch Test1");
+        System.out.println("Branch Test2");
     }
 }
